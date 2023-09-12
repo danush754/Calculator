@@ -6,7 +6,7 @@
 }
 
 .container{
-    background-color: rgb(217, 238, 245);
+    background: #e3f9ff;
     height: 100vh;
     width: 100%;
     display: flex;
@@ -15,8 +15,50 @@
 }
 
 .calculator{
-    background: rgb(19, 15, 18);
+    background: #305353;
     padding: 20px;
     border-radius: 10px;
     
+}
+
+.calculator form input{
+    border: 0;
+    outline: 0;
+    border-radius: 10px;
+    width: 60px;
+    height:60px;
+    box-shadow: 5px 3px 4px #ac9999 , -5px 3px 4px #0e0d0d;;
+    background: transparent;
+    font-size: 20px;
+    color: #fff;
+    cursor: pointer;
+    margin: 10px;
+}
+
+form .display{
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 0;
+}
+
+.buttons{
+    border: #386161 solid;
+    background-color: #386161;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+form .display input{
+    flex: 1;
+    text-align: right;
+    font-size: 40px;
+    box-shadow: none;
+}
+
+form input.equal{
+    width: 145px;
+}
+
+form input.operators{
+    color: rgb(252, 135, 26);
 }
